@@ -154,7 +154,9 @@ img {
     display: grid;
     grid-template-columns: 402px 400px; 
     column-gap: 5px;
-    margin: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
     align-items: center;
 }
 
@@ -205,8 +207,10 @@ img {
     display: grid;
     grid-template-columns: 360px 390px; 
     column-gap: 10px;
-    margin: 80px;
     align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
 }
 
 .food-photo {
@@ -227,8 +231,10 @@ img {
     display: grid;
     grid-template-columns: 300px 490px; 
     column-gap: 10px;
-    margin: 80px;
     align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
 }
 
 .travel-grid p {
