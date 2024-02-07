@@ -1,0 +1,193 @@
+
+.skip {
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    font-size: 25px;
+}
+
+.skip:focus {
+    position: static;
+    text-align: center;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    top: auto;
+}
+
+.home-img {
+    margin: 30px;
+}
+
+h1 {
+    font-size: 70px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-left: 15px;
+    margin: 10px;
+}
+
+p {
+    font-size: 23px;
+    margin-left: 15px;
+}
+
+li {
+    font-size: 23px;
+    margin-left: 40px;
+    list-style: circle;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px; 
+    column-gap: 0px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.home {
+    grid-column: 1/1;
+    list-style-type: none;
+    background-color: #E6E6FA;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+}
+
+.home:hover {
+    border: 2px solid #301934;
+    background-color: #FFB6C1;
+}
+
+.home:active {
+    border: 2px solid #301934;
+    background-color: #FFB6C1;
+}
+
+.pets {
+    grid-column: 2/2;
+    list-style-type: none;
+    background-color: #E6E6FA;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+}
+
+.pets:hover {
+    border: 2px solid #301934;
+    background-color: #FFB6C1;
+}
+
+.pets:active {
+    border: 2px solid #301934;
+    background-color: #FFB6C1;
+}
+
+.recipe {
+    grid-column: 3/3;
+    list-style-type: none;
+    background-color: #E6E6FA;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+}
+
+.recipe:hover {
+    border: 2px solid #301934;
+    background-color: #FFB6C1;
+}
+
+.recipe:active {
+    border: 2px solid #301934;
+    background-color: #FFB6C1;
+}
+
+.travel {
+    grid-column: 4/4;
+    list-style-type: none;
+    background-color: #E6E6FA;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+}
+
+.travel:hover {
+    border: 2px solid #301934;
+    background-color: #FFB6C1;
+}
+
+.travel:active {
+    border: 2px solid #301934;
+    background-color: #FFB6C1;
+}
+
+img {
+    margin: 10px;
+}
+
+.main-img {
+    height: 500px;
+    width: 400px;
+}
+
+.pet-div {
+    display: grid;
+    grid-template-columns: 500px 500px; 
+    column-gap: 10px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.first-grid {
+    grid-column: 1/1;
+}
+
+.second-grid {
+    grid-column: 2/2;
+}
+
+.third-grid {
+    grid-column: 1/1;
+}
+
+.fourth-grid {
+    grid-column: 2/2;
+}
+
+
+.nested-grid {
+    display: grid;
+    grid-template-columns: 200px 200px; 
+    column-gap: 10px;
+    align-items: center;
+}
+
+.gallery-photo {
+    width: 200px;
+    height: 250px;
+}
+
+.food-photo {
+    width: 200px;
+    height: 200px;
+}
+
+.bottom-grid {
+    grid-column: 1/-1;
+}
+
