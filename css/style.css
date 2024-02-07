@@ -153,7 +153,7 @@ img {
 .pet-div {
     display: grid;
     grid-template-columns: 402px 400px; 
-    column-gap: 10px;
+    column-gap: 5px;
     margin: 80px;
     align-items: center;
 }
@@ -221,4 +221,16 @@ img {
 .home-grid {
     display: grid;
     grid-template-columns: 700px;
+}
+
+.travel-grid {
+    display: grid;
+    grid-template-columns: 300px 490px; 
+    column-gap: 10px;
+    margin: 80px;
+    align-items: center;
+}
+
+.travel-grid p {
+    margin-top: 15px;
 }
