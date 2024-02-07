@@ -184,7 +184,6 @@ img {
     grid-column: 2/2;
 }
 
-
 .nested-grid {
     display: grid;
     grid-template-columns: 200px 200px; 
@@ -219,3 +218,7 @@ img {
     grid-column: 1/-1;
 }
 
+.home-grid {
+    display: grid;
+    grid-template-columns: 700px;
+}
