@@ -20,11 +20,13 @@
 
 .home-img {
     margin: 30px;
+    height: 300px;
+    width: 300px;
 }
 
 h1 {
     font-size: 70px;
-    margin-left: 15px;
+    margin-left: 30px;
     margin-bottom: 40px;
 }
 
@@ -49,6 +51,10 @@ li {
     font-size: 23px;
     margin-left: 40px;
     list-style: circle;
+}
+
+.menu > li {
+    margin-left: 2px;
 }
 
 .menu {
@@ -140,17 +146,20 @@ img {
 }
 
 .main-img {
-    height: 500px;
-    width: 400px;
+    height: 400px;
+    width: 300px;
 }
 
 .pet-div {
     display: grid;
     grid-template-columns: 500px 500px; 
-    column-gap: 10px;
-    margin-bottom: 80px;
-    margin-top: 80px;
+    column-gap: 0px;
+    margin: 80px;
     align-items: center;
+}
+
+.pet-div > p {
+    margin-left: 0px;
 }
 
 .first-grid {
