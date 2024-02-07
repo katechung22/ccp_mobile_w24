@@ -146,19 +146,23 @@ img {
 }
 
 .main-img {
-    height: 400px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
 }
 
 .pet-div {
     display: grid;
-    grid-template-columns: 500px 500px; 
-    column-gap: 0px;
+    grid-template-columns: 402px 400px; 
+    column-gap: 10px;
     margin: 80px;
     align-items: center;
 }
 
-.pet-div > p {
+.pet-div p {
+    margin-left: 0px;
+}
+
+.pet-div h2 {
     margin-left: 0px;
 }
 
@@ -168,10 +172,12 @@ img {
 
 .second-grid {
     grid-column: 2/2;
+    overflow: auto;
 }
 
 .third-grid {
     grid-column: 1/1;
+    overflow: auto;
 }
 
 .fourth-grid {
@@ -182,13 +188,26 @@ img {
 .nested-grid {
     display: grid;
     grid-template-columns: 200px 200px; 
-    column-gap: 10px;
+    column-gap: 2px;
     align-items: center;
 }
 
+.nested-grid img {
+    margin-top: 1px;
+    margin-bottom: 3px;
+}
+
 .gallery-photo {
-    width: 200px;
-    height: 250px;
+    width: 170px;
+    height: 230px;
+}
+
+.food-div {
+    display: grid;
+    grid-template-columns: 360px 390px; 
+    column-gap: 10px;
+    margin: 80px;
+    align-items: center;
 }
 
 .food-photo {
