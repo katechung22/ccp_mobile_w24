@@ -15,6 +15,7 @@
     width: auto;
     height: auto;
     top: auto;
+    border: 2px solid #301934;
 }
 
 .home-img {
@@ -151,6 +152,7 @@ img {
 
 .pet-div {
     display: grid;
+    /* grid-template-columns: 1fr 1fr; */
     grid-template-columns: 402px 400px; 
     column-gap: 5px;
     margin-left: 80px;
@@ -230,4 +232,9 @@ img {
 
 .travel-grid p {
     margin-top: 15px;
+}
+
+.travel-photo {
+    width: 220px;
+    height: 230px;
 }
