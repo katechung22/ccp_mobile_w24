@@ -223,11 +223,6 @@ img {
     grid-column: 1/-1;
 }
 
-.home-grid {
-    display: grid;
-    grid-template-columns: 800px;
-}
-
 .travel-grid {
     display: grid;
     grid-template-columns: 1fr 2fr; 
