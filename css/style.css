@@ -1,7 +1,6 @@
 
 .skip {
     position: absolute;
-    text-align: center;
     overflow: hidden;
     top: auto;
     width: 1px;
@@ -25,25 +24,25 @@
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 40px;
     margin-left: 30px;
     margin-bottom: 40px;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 32px;
     margin-left: 15px;
     margin-bottom: 15px;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 28px;
     margin-left: 15px;
     margin: 10px;
 }
 
 p {
-    font-size: 23px;
+    font-size: 20px;
     margin-left: 15px;
 }
 
@@ -53,34 +52,36 @@ li {
     list-style: circle;
 }
 
-.menu > li {
-    margin-left: 2px;
-}
-
 .menu {
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
     column-gap: 0px;
     margin-bottom: 30px;
     margin-top: 10px;
+}
+
+li.menu {
+    margin-left: 0px;
+}
+
+ul.menu {
+    margin-left: 0px;
 }
 
 .home {
     grid-column: 1/1;
     list-style-type: none;
     background-color: #E6E6FA;
-    font-size: 35px;
+    font-size: 22px;
     text-align: center;
-    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .home:hover {
-    border: 2px solid #301934;
-    background-color: #FFB6C1;
-}
-
-.home:active {
-    border: 2px solid #301934;
+    border: 4px solid #301934;
     background-color: #FFB6C1;
 }
 
@@ -88,18 +89,16 @@ li {
     grid-column: 2/2;
     list-style-type: none;
     background-color: #E6E6FA;
-    font-size: 35px;
+    font-size: 22px;
     text-align: center;
-    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .pets:hover {
-    border: 2px solid #301934;
-    background-color: #FFB6C1;
-}
-
-.pets:active {
-    border: 2px solid #301934;
+    border: 4px solid #301934;
     background-color: #FFB6C1;
 }
 
@@ -107,18 +106,16 @@ li {
     grid-column: 3/3;
     list-style-type: none;
     background-color: #E6E6FA;
-    font-size: 35px;
+    font-size: 22px;
     text-align: center;
-    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .recipe:hover {
-    border: 2px solid #301934;
-    background-color: #FFB6C1;
-}
-
-.recipe:active {
-    border: 2px solid #301934;
+    border: 4px solid #301934;
     background-color: #FFB6C1;
 }
 
@@ -126,19 +123,22 @@ li {
     grid-column: 4/4;
     list-style-type: none;
     background-color: #E6E6FA;
-    font-size: 35px;
+    font-size: 22px;
     text-align: center;
-    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .travel:hover {
-    border: 2px solid #301934;
+    border: 4px solid #301934;
     background-color: #FFB6C1;
 }
 
-.travel:active {
-    border: 2px solid #301934;
-    background-color: #FFB6C1;
+a.active {
+    font-weight: bold;
+    color: #AA336A;
 }
 
 img {
@@ -146,17 +146,16 @@ img {
 }
 
 .main-img {
-    height: 370px;
-    width: 370px;
+    height: 350px;
+    width: 350px;
 }
 
 .pet-div {
     display: grid;
-    /* grid-template-columns: 1fr 1fr; */
-    grid-template-columns: 402px 400px; 
-    column-gap: 5px;
-    margin-left: 80px;
-    margin-right: 80px;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 80px;
     align-items: center;
 }
@@ -185,10 +184,19 @@ img {
     grid-column: 2/2;
 }
 
+.first-pet-pic {
+    grid-column: 1/-1;
+}
+
+.pet-description {
+    grid-column: 1/-1;
+}
+
 .nested-grid {
     display: grid;
     grid-template-columns: 1fr 1fr; 
     align-items: center;
+    grid-gap: 2px;
 }
 
 .gallery-photo {
@@ -198,17 +206,17 @@ img {
 
 .food-div {
     display: grid;
-    grid-template-columns: 360px 390px; 
-    column-gap: 10px;
+    grid-template-columns: 1fr 2fr; 
+    grid-gap: 10px;
     align-items: center;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-bottom: 80px;
 }
 
 .food-photo {
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
 }
 
 .bottom-grid {
@@ -222,11 +230,11 @@ img {
 
 .travel-grid {
     display: grid;
-    grid-template-columns: 300px 490px; 
+    grid-template-columns: 1fr 2fr; 
     column-gap: 10px;
     align-items: center;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 80px;
 }
 
@@ -235,6 +243,6 @@ img {
 }
 
 .travel-photo {
-    width: 220px;
-    height: 230px;
+    width: 120px;
+    height: 130px;
 }
