@@ -12,7 +12,6 @@
 .skip:focus {
     position: static;
     text-align: center;
-    overflow: hidden;
     width: auto;
     height: auto;
     top: auto;
@@ -146,8 +145,8 @@ img {
 }
 
 .main-img {
-    height: 350px;
-    width: 350px;
+    height: 370px;
+    width: 370px;
 }
 
 .pet-div {
@@ -174,12 +173,10 @@ img {
 
 .second-grid {
     grid-column: 2/2;
-    overflow: auto;
 }
 
 .third-grid {
     grid-column: 1/1;
-    overflow: auto;
 }
 
 .fourth-grid {
@@ -188,14 +185,8 @@ img {
 
 .nested-grid {
     display: grid;
-    grid-template-columns: 200px 200px; 
-    column-gap: 2px;
+    grid-template-columns: 1fr 1fr; 
     align-items: center;
-}
-
-.nested-grid img {
-    margin-top: 1px;
-    margin-bottom: 3px;
 }
 
 .gallery-photo {
@@ -224,7 +215,7 @@ img {
 
 .home-grid {
     display: grid;
-    grid-template-columns: 700px;
+    grid-template-columns: 800px;
 }
 
 .travel-grid {
